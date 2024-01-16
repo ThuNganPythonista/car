@@ -1,0 +1,323 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static '/styles/index.css' %}">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<title>Caraha</title>
+</head>
+<body>
+<div class="content-1">
+    <div class="logo-contain">
+        {#				<img src="./assets/images/logo1.png">#}
+        <img src="{% static 'images/logo1.png' %}" >
+    </div>
+    <div class="menu">
+        <a style="color: #FFBE00;">Home</a>
+        <a>Start Bidding</a>
+        <a>About</a>
+        <a>Sell your car</a>
+    </div>
+    <div class="authentication">
+        {#				<img class="vector" src="./assets/images/Vector.png">#}
+        <img src="{% static 'images/Vector.png' %}" >
+        <a class="login" href="">LOG IN</a><span>/</span>
+        <a class="registration" href="">REGISTRATION</a>
+    </div>
+</div>
+<div class="content-2">
+    {#			<img class="banner" src="./assets/images/banner.png">#}
+    <img class="banner" src="{% static 'images/banner.png' %}" >
+    <div class="content-text-2">
+        <h1 class="title-banner">THE FASTEST WAY <span style="color: #FFBE00;">TO YOUR NEXT CAR</span></h1>
+        <span class="content-banner">Choose from thousands of New Cars and Used Cars in Vietnam.</span>
+        <button class="explore">EXPLORE</button>
+    </div>
+</div>
+<div class="content-3">
+    <h3 class="lastest-car">Latest <span style="color:#FFBE00;">Car Auction</span></h3>
+    <div class="list-of-items">
+        <ul>
+            <li>
+                {#						<img src="./assets/images/yellow-car.png">#}
+                <img src="{% static 'images/yellow-car.png' %}" >
+                <div class="detail-product">
+                    <span class="title-product">SUZUKI SWIFT 2018</span>
+                    <div class="detail-1">
+                        <div class="detail">
+                            {#									<img class="detail-image" src="./assets/images/date-release.png">#}
+                            <img src="{% static 'images/date-release.png' %}" >
+                            <span class="title-detail">03 Sep 2018</span>
+                        </div>
+                        <div class="detail">
+                            {#									<img class="detail-image" src="./assets/images/km.png">#}
+                            <img src="{% static 'images/km.png' %}" >
+                            <span class="title-detail">29,400 km</span>
+                        </div>
+                    </div>
+                    <div class="detail-2">
+                        {#								<img class="detail-image" src="./assets/images/price.png">#}
+                        <img src="{% static 'images/Vector.png' %}">
+                        <span class="title-detail">125,000,000 VND cheaper</span>
+                    </div>
+                    <div class="detail">
+                        {#								<img class="detail-image" src="./assets/images/hammer.png">#}
+                        <img src="{% static 'images/hammer.png' %}">
+
+                        <span class="title-detail">Auction price:</span>
+                        <span class="title-detail">326,750,000 VND</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                {#						<img src="./assets/images/yellow-car.png">#}
+                <img src="{% static 'images/yellow-car.png' %}" >
+                <div class="detail-product">
+                    <span class="title-product">SUZUKI SWIFT 2018</span>
+                    <div class="detail-1">
+                        <div class="detail">
+{#                            <img class="detail-image" src="./assets/images/date-release.png">#}
+                            <img src="{% static 'images/date-release.png' %}">
+                            <span class="title-detail">03 Sep 2018</span>
+                        </div>
+                        <div class="detail">
+{#                            <img class="detail-image" src="./assets/images/km.png">#}
+                            <img src="{% static 'images/images.png' %}">
+                            <span class="title-detail">29,400 km</span>
+                        </div>
+                    </div>
+                    <div class="detail-2">
+{#                        <img class="detail-image" src="./assets/images/price.png">#}
+                        <img src="{% static 'images/Vector.png' %}">
+                        <span class="title-detail">125,000,000 VND cheaper</span>
+                    </div>
+                    <div class="detail">
+{#                        <img class="detail-image" src="./assets/images/hammer.png">#}
+                        <img src="{% static 'images/hammer.png' %}">
+                        <span class="title-detail">Auction price:</span>
+                        <span class="title-detail">326,750,000 VND</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+{#                <img src="./assets/images/yellow-car.png">#}
+                <img src="{% static 'images/yellow-car.png' %}">
+                <div class="detail-product">
+                    <span class="title-product">SUZUKI SWIFT 2018</span>
+                    <div class="detail-1">
+                        <div class="detail">
+                            <img src="{% static 'images/date-release.png' %}">
+{#                            <img class="detail-image" src="./assets/images/date-release.png">#}
+                            <span class="title-detail">03 Sep 2018</span>
+                        </div>
+                        <div class="detail">
+                              <img src="{% static 'images/km.png' %}">
+{#                            <img class="detail-image" src="./assets/images/km.png">#}
+                            <span class="title-detail">29,400 km</span>
+                        </div>
+                    </div>
+                    <div class="detail-2">
+{#                        <img class="detail-image" src="./assets/images/price.png">#}
+                        <img src="{% static 'images/Vector.png' %}">
+                        <span class="title-detail">125,000,000 VND cheaper</span>
+                    </div>
+                    <div class="detail">
+                        <img src="{% static 'images/hammer.png' %}">
+{#                        <img class="detail-image" src="./assets/images/hammer.png">                        <img src="{% static 'images/hammer.png' %}">#}
+                        <span class="title-detail">Auction price:</span>
+                        <span class="title-detail">326,750,000 VND</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+{#                <img src="./assets/images/yellow-car.png">#}
+                <img src="{% static 'images/yellow-car.png' %}">
+                <div class="detail-product">
+                    <span class="title-product">SUZUKI SWIFT 2018</span>
+                    <div class="detail-1">
+                        <div class="detail">
+                            <img src="{% static 'images/date-release.png' %}">
+{#                            <img class="detail-image" src="./assets/images/date-release.png">#}
+                            <span class="title-detail">03 Sep 2018</span>
+                        </div>
+                        <div class="detail">
+                              <img src="{% static 'images/km.png' %}">
+
+{#                            <img class="detail-image" src="./assets/images/km.png">#}
+                            <span class="title-detail">29,400 km</span>
+                        </div>
+                    </div>
+                    <div class="detail-2">
+                         <img src="{% static 'images/Vector.png' %}">
+{#                        <img class="detail-image" src="./assets/images/price.png">#}
+                        <span class="title-detail">125,000,000 VND cheaper</span>
+                    </div>
+                    <div class="detail">
+                        <img src="{% static 'images/hammer.png' %}">
+{#                        <img class="detail-image" src="./assets/images/hammer.png">#}
+                        <span class="title-detail">Auction price:</span>
+                        <span class="title-detail">326,750,000 VND</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img src="{% static 'images/yellow-car.png' %}">
+{#                <img src="./assets/images/yellow-car.png">#}
+                <div class="detail-product">
+                    <span class="title-product">SUZUKI SWIFT 2018</span>
+                    <div class="detail-1">
+                        <div class="detail">
+                            <img src="{% static 'images/date-release.png' %}">
+
+{#                            <img class="detail-image" src="./assets/images/date-release.png">#}
+                            <span class="title-detail">03 Sep 2018</span>
+                        </div>
+                        <div class="detail">
+                            <img src="{% static 'images/km.png' %}">
+{#                            <img class="detail-image" src="./assets/images/km.png">#}
+                            <span class="title-detail">29,400 km</span>
+                        </div>
+                    </div>
+                    <div class="detail-2">
+                        <img src="{% static 'images/Vector.png' %}">
+                        <img class="detail-image" src="./assets/images/price.png">
+                        <span class="title-detail">125,000,000 VND cheaper</span>
+                    </div>
+                    <div class="detail">
+{#                        <img class="detail-image" src="./assets/images/hammer.png">#}
+                       <img src="{% static 'images/hammer.png' %}">
+
+                        <span class="title-detail">Auction price:</span>
+                        <span class="title-detail">326,750,000 VND</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="./assets/images/yellow-car.png">
+                <div class="detail-product">
+                    <span class="title-product">SUZUKI SWIFT 2018</span>
+                    <div class="detail-1">
+                        <div class="detail">
+                            <img class="detail-image" src="./assets/images/date-release.png">
+                            <span class="title-detail">03 Sep 2018</span>
+                        </div>
+                        <div class="detail">
+
+                            <img class="detail-image" src="./assets/images/km.png">
+                            <span class="title-detail">29,400 km</span>
+                        </div>
+                    </div>
+                    <div class="detail-2">
+                        <img class="detail-image" src="./assets/images/price.png">
+                        <span class="title-detail">125,000,000 VND cheaper</span>
+                    </div>
+                    <div class="detail">
+                        <img class="detail-image" src="./assets/images/hammer.png">
+                        <span class="title-detail">Auction price:</span>
+                        <span class="title-detail">326,750,000 VND</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="contain-seemore">
+        <button class="seemore">SEE MORE</button>
+    </div>
+</div>
+<div class="content-4">
+    <img class="image-vehicle" src="./assets/images/image-vehicle.png">
+    <div class="content-4-inf">
+        <h5 class="title-footer">
+            Have a vehicle to sell?
+        </h5>
+        <p>Have a car and wonder how much should it be? Submit your vehicle information to AutoX and we will evaluate, appraise and auction your vehicle!</p>
+        <form>
+            <div class="contain-two-inputs">
+                <input type="text" name="full name" placeholder="Full name">
+                <input type="number" name="phone number" placeholder="Phone number">
+            </div>
+            <input type="email" name="email" placeholder="Email" class="input-email">
+            <input type="char" name="describe" placeholder="Details about your car: Model, Register year,.." class="input-detail">
+            <button class="submit">Submit</button>
+        </form>
+    </div>
+</div>
+<footer class="footer">
+    <div class="contain-two-images">
+        <img class="autox" src="./assets/images/AutoX.png">
+        <div class="image-footer">
+            <img class="autox" src="./assets/images/by.png">
+            <img class="autox" src="./assets/images/carousell.png">
+        </div>
+    </div>
+    <div class="footer-in4">
+        <div class="information">
+            <h6>
+                ServiSense Digital Solution Co., Ltd
+            </h6>
+            <h6>
+                Address:
+            </h6>
+            <span>
+							 121 Kim Nguu, Hai Ba Trung District Hanoi, Viet Nam
+						</span>
+            <h6>
+                Hotline:
+            </h6>
+            <span>
+							 (+84) 964 936 939
+						</span>
+            <h6>
+                Email:
+            </h6>
+            <span>
+							Email: hello@servisense.vn
+						</span>
+        </div>
+        <div class="information">
+            <h6>About Us</h6>
+            <a>Why Choose Us? </a>
+            <a>Reasons To Partner With Us</a>
+            <a>Join Our Team</a>
+            <a>Contact Us</a>
+            <a>FAQ</a>
+        </div>
+        <div class="information">
+            <h6 class="useful-links">
+                Useful links
+            </h6>
+            <a>Latest Car</a>
+            <a>Sell your car</a>
+            <a>Login/Registration</a>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="fot">
+        <div class="contain-icons">
+            <a><i class="fa-brands fa-facebook" style="color: white;"></i></a>
+            <a><i class="fa-brands fa-square-twitter" style="color: white;"></i></a>
+            <a><i class="fa-brands fa-linkedin" style="color: white;"></i></a>
+        </div>
+        <span>
+							©2022 ServiSense. All Right Reserved.
+						</span>
+        <div class="final">
+            <span>Designed & Developed by</span>
+{#            <img class="sensi" src="./assets/images/servisense.png">#}
+              <img src="{% static 'images/servisense.png' %}">
+
+        </div>
+    </div>
+    </footer>
+	</div>
+</body>
+</html>
+
+//// I lost some of my photos :<<<<<<<<
+//// Let me find it
